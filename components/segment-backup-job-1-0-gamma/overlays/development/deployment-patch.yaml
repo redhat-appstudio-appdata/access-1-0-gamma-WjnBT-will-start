@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: segment-backup-job-1-0-gamma
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/access-1-0-gamma/segment-backup-job-1-0-gamma@sha256:444a931ed8fde60e7f81b1ef65ff7a7f92c98679baba91b14c1bc5928fb95c35
+        name: container-image
+        resources: {}
+status: {}
