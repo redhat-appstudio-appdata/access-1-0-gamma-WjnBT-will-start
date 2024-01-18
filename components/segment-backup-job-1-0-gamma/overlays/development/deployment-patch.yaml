@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/access-1-0-gamma/segment-backup-job-1-0-gamma@sha256:444a931ed8fde60e7f81b1ef65ff7a7f92c98679baba91b14c1bc5928fb95c35
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/access-1-0-gamma/segment-backup-job-1-0-gamma@sha256:2038d3223102f5f50d3af3d7a6affc3f2c3493e1e627f7df75534e8ddc15e27a
         name: container-image
         resources: {}
 status: {}
