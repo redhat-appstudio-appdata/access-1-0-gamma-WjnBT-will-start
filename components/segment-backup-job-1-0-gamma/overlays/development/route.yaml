@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: segment-backup-job-1-0-gamma
     app.kubernetes.io/part-of: access-1-0-gamma
-  name: segment-backup-job-1-0-gadi7j
+  name: segment-backup-job-1-0-gaacwf
 spec:
   port:
     targetPort: 1
