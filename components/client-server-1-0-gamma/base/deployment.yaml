@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: client-server-1-0-gamma
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/access-1-0-gamma/client-server-1-0-gamma@sha256:672685f069f65bbf37dc2aa517c3ce157b2818d7546d90b6d686e826b9682b69
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/access-1-0-gamma/client-server-1-0-gamma@sha256:7b028da0290c2a5f3626e6c2564279872d2ac445b253ac66da2f1820ad01368b
         imagePullPolicy: Always
         name: container-image
         ports:
