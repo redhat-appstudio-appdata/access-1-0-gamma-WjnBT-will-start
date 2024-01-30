@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: segment-backup-job-1-0-gamma
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/access-1-0-gamma/segment-backup-job-1-0-gamma@sha256:24019bfe598d79774135398e8b186e56969e7f6e3dfdeb4a965ca40bd21cb6fb
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/access-1-0-gamma/segment-backup-job-1-0-gamma@sha256:73f12e684395048bb1cd7f3f0ae4fdf97703e0012257e57152b4f7f8426644f5
         imagePullPolicy: Always
         name: container-image
         ports:
